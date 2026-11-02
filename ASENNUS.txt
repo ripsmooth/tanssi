@@ -1,0 +1,12 @@
+TANSSILLINEN VOIMISTELU CUP 1 – GITHUB-OHJAUS V2
+
+Kopioi grafiikka.html ja ohjaus.html repositorion ripsmooth/tanssi juureen.
+Pidä state.json repositorion juuressa. Älä julkaise GitHub-tokenia tiedostoissa.
+
+Token: Fine-grained personal access token, repository ripsmooth/tanssi, Contents: Read and write.
+Ohjauspaneeli käyttää GitHub Contents API:a suoraan. GitHub Actions -workflow ei enää osallistu painalluksiin.
+Grafiikka lukee state.json-tiedoston raw.githubusercontent.com-osoitteesta noin sekunnin välein.
+
+GitHub Pages -osoitteet ovat yleensä:
+https://ripsmooth.github.io/tanssi/grafiikka.html
+https://ripsmooth.github.io/tanssi/ohjaus.html
